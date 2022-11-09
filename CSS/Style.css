@@ -7,7 +7,7 @@ body
 
 #main_wrapper
 {
-    width: 900px;
+    
     margin: auto;
 }
 
@@ -43,15 +43,16 @@ header h2
 
 nav
 {
-    display: inline-block;
-    width: 600px;
-    text-align: right;
+    
+    
+    text-align:left
 }
 
 nav li
 {
     display: inline-block;
-    margin-right: 15px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav ul
@@ -61,8 +62,8 @@ nav ul
 
 nav a:hover
 {
-    color:darkred;
-    border-bottom: 3px solid darkred;
+    color:cornflowerblue;
+    border-bottom: 3px solid cornflowerblue;
 
 }
 
@@ -76,42 +77,46 @@ nav a
 #banner_Image
 {
     margin-top: 15px;
-    height: 200px;
+    height: 386px;
     border-radius: 5px;
     background: url("../Images/Banner_Images.png")no-repeat;
-    position: relative;
-    box-shadow: 0px 4px 4px black;
-    margin-bottom: 25px;
-
-
+    position:relative;
 }
 
 #banner_description 
 {
-    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position:absolute;
+    top: 130px;
+    right: 190px;
     bottom: 0;
     border-radius: 0px 0px 5px 5px;
     height: 35px;
-    width: 95%;
+    width: 50%;
     padding-top: 15px;
     padding-left: 4px;
-    color:black;
-    background-color:white;
-    
-    
+    color:white;
 
 }
 
 #banner_description a
 {
+    font-family:'Times New Roman', Times, serif;
     color: black;
-}
-
-.red_buttom
-{
-    display: inline-block;
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 70px;
+    padding-right: 70px;
     
 }
+
+
+/*restaurante1*/
+
+
+
+
