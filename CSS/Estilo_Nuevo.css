@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Images/Fondo_Nuevo.jpg);
+}
+
+#Ingreso
+{
+    width: 800px;
+    padding: 30px;
+    background-color:darkslategray;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 10px 15px 40px black;
+
+}
+
+#Ingreso h1
+{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.controls
+{
+    font-size: 20px;
+    width: 100%;
+    padding: 5px;
+    background:white;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.bottom
+{
+    width: 100%;
+    background: rgb(144, 144, 184);
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 16px;
+    
+}
+
+

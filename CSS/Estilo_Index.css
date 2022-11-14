@@ -1,6 +1,6 @@
 body
 {
-    background-color: white;
+    background-image: url(../Images/Fondo_Index.jpg);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
@@ -111,6 +111,7 @@ nav a
     top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    border-radius: 5px;
 }
 
 #banner_description a:hover
@@ -147,7 +148,9 @@ nav a
     display:inline-block;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: black; 
+    color: black;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
     
     
 }   
@@ -164,12 +167,15 @@ nav a
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     color: black;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
 }
 
 #restaurante3
 {
     display: inline-block;
     width: 315px;
+    
 }
 
 #restaurante3 a
@@ -178,6 +184,8 @@ nav a
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
 }
 
 #restaurante4
@@ -191,7 +199,8 @@ nav a
     display: inline-block;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    color: black;
+    color: black;box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
 }
 
 
